@@ -29,7 +29,7 @@ body {
   font-size:25px;
 
   /* растояние между словами  */
-  margin-right: 80px;
+  margin-right: 60px;
   /* плавность смени цвета при наведении на слово  */
   transition: color 0.3s linear;
 }
