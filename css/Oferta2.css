@@ -1,0 +1,329 @@
+.body{
+    margin: 0;
+    
+    font-family: 'Gupter', serif;
+    
+}
+.conteiner{
+    /* пересунуть на н 0px в низ и 466 в право  */
+    margin:0px 0px;
+}
+ 
+ 
+
+.header-line{
+    /* опустить на н px */
+    padding-top: 30px;
+    /* чтоби все било в ряд  */
+    display:flex;   
+    /* виравнять по линии главного елемента  */
+    align-items: center;
+        /* растояние между словами  */
+    justify-content:space-around ;
+}
+.nav-item{
+    color:black;
+    /* убрать синии текст  */
+    text-decoration:none;
+    font-size:25px;
+
+    /* растояние между словами  */
+    margin-right: 80px;
+    /* плавность смени цвета при наведении на слово  */
+    transition: color 0.3s linear;
+}
+    /* когда наврдим на слово оно меняет цвет  */
+.nav-item:hover{
+        color:#fcdaa0 ;
+}
+/* главная картинка  */
+.header-down{
+    background-image: url(../img/YTR.jpg) ;  
+    height: 100vh  ;
+    /* не повторяют картинкки */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+
+.title{
+    position: relative;
+   
+}
+.M-Expres{
+    font-family: 'Fenix', serif;
+    background-color: #F2C6C7;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 20px;
+    width: 629px;
+
+    left: 300px;
+    top: 100px;
+    border-radius: 0px;
+    
+    
+}
+.T-Expres{
+    font-family: 'Fenix', serif;
+    background-color: #D7ACAD;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 93px;
+    width: 629px;
+
+    left: 300px;
+    top: 132px;
+    border-radius: 0px;
+}
+.M-Klasyc{
+    font-family: 'Fenix', serif;
+    background-color: #F2C6C7;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 20px;
+    width: 629px;
+
+    left: 300px;
+    top: 250px;
+    border-radius: 0px;
+}
+.T-Klasyc{
+    font-family: 'Fenix', serif;
+    background-color: #D7ACAD;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 93px;
+    width: 629px;
+
+    left: 300px;
+    top: 281px;
+    border-radius: 0px;
+}
+.M-GEL{
+    font-family: 'Fenix', serif;
+    background-color: #F2C6C7;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 20px;
+    width: 629px;
+
+    left: 300px;
+    top: 400px;
+    border-radius: 0px;
+}
+.T-GEL{
+    font-family: 'Fenix', serif;
+    background-color: #D7ACAD;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 183px;
+    width: 629px;
+
+    left: 300px;
+    top: 431px;
+    border-radius: 0px;
+}
+.M-EXPRESSOWY{
+    font-family: 'Fenix', serif;
+    background-color: #F2C6C7;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 20px;
+    width: 629px;
+
+    left: 300px;
+    top: 640px;
+    border-radius: 0px;
+}
+.T-EXPRESSOWY{
+    font-family: 'Fenix', serif;
+    background-color: #D7ACAD;
+    /* внутриний отступ */
+    padding: 6px 19px ;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 300;
+
+    height: 93px;
+    width: 629px;
+
+    left: 300px;
+    top: 671px;
+    border-radius: 0px;
+}
+.title-texture{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 20px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 278px;
+
+ margin-top: -12px;
+}
+.time-open{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 32px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 253px;
+
+ margin-top: 35px;
+}
+.day-pon{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 24px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 282px;
+
+ margin-top: 101px;
+
+}
+.time-pon{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 22px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 266px;
+
+ margin-top: 144px;
+
+}
+.day-way {
+    color: #5A4F49;
+    font-family: 'Gotu', sans-serif;
+    font-size: 24px;
+    font-weight: 100px;
+  
+    text-align: center;
+    position: absolute;
+    left: 469px;
+  
+   margin-top: 102px;
+}
+.time-way{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 22px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 460px;
+
+ margin-top: 144px;
+}
+
+.create-line {
+    position: absolute;
+    height: 213px;
+    border-left: 1px solid #000000;
+    left: 1000px;
+
+    margin-top: 50px;
+  }
+  .emeil {
+    position: absolute;
+    height: 172px;
+    left: 1020px;
+    margin-top: 130px;
+   }
+  
+   .tell{
+    position: absolute;
+    height: 172px;
+    left: 1020px;
+    margin-top: 185px;
+  
+   }
+  
+   .block {
+    overflow: hidden;
+  }
+  .t-way{
+    color: #5A4F49;
+  font-family: 'Gotu', sans-serif;
+  font-size: 32px;
+  font-weight: 100px;
+
+  text-align: center;
+  position: absolute;
+  left: 1022px;
+
+ margin-top: 35px;
+  }
+  .email{
+    color: #5A4F49;
+    font-family: 'Gotu', sans-serif;
+    font-size: 22px;
+    font-weight: 100px;
+  
+    text-align: center;
+    position: absolute;
+    left: 1070px;
+  
+   margin-top: 122px;
+  }
+  .tell1{
+    color: #5A4F49;
+    font-family: 'Gotu', sans-serif;
+    font-size: 22px;
+    font-weight: 100px;
+  
+    text-align: center;
+    position: absolute;
+    left: 1070px;
+  
+   margin-top: 182px;
+  }
